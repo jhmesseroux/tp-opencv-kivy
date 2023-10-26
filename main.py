@@ -473,7 +473,7 @@ class OpenCvApp(App):
         sm.add_widget(HomeScreen(name='home'))
         sm.add_widget(DocsScreen(name='docs'))
         sm.add_widget(RegisterScreen(name='RegisterScreen'))
-        sm.current = 'auth'
+        #sm.current = 'auth'
         return sm
 
 

@@ -9,8 +9,9 @@ import cv2, sys, numpy, os
 
 # change the paths below to the location where these files are on your machine
 # haar_file path
-haar_file = 'C:/Users/jhmes/Documents/projects/python/opencv/face-recognition/haarcascade_frontalface_default.xml'# path to the main faces directory which contains all the sub_datasets
-datasets = 'C:/Users/jhmes/Documents/projects/python/opencv/face-recognition/faces'
+haar_file = 'C:/Users/VIRGI/Desktop/Facultad/Soporte/PycharmProjects/tp-opencv-kivy/haarcascade_frontalface_default.xml'
+# path to the main faces directory which contains all the sub_datasets
+datasets = 'C:/Users/VIRGI/Desktop/Facultad/Soporte/PycharmProjects/tp-opencv-kivy/faces'
 
 print('Training classifier...')
 # Create a list of images and a list of corresponding names along with a unique id
